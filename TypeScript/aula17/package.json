@@ -1,0 +1,14 @@
+{
+  "name": "aula17",
+  "version": "1.0.0",
+  "description": "1. Inicializar um projeto Node.js: <code>npm init</code>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}

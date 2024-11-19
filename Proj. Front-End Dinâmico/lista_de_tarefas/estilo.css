@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+.container {
+  background-color: #6495ed;
+  width: 650px;
+  height: 100%;
+  padding: 50px;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.container-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6495ed;
+  padding: 20px;
+  margin-bottom: 30px;
+  /* width: 650px;
+  margin: 0 auto 30px; */
+}
+
+#theme-button {
+  margin-left: 10px;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+}
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container-form {
+  width: 640px;
+  margin: 0 auto;
+  /* 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; */
+}
+
+input,
+button {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: -webkit-fill-available;
+}
+
+#task-title-input {
+  border: none;
+  border-radius: 30px;
+}
+
+#add-task-button {
+  background-color: #00ff7f;
+  color: #222222;
+  border: none;
+  border-radius: 30px;
+  /* width: 150px;
+  height: 20px; */
+  width: 40px;
+  height: 40px;
+  padding: 15px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}

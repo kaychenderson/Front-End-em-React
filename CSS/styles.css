@@ -1,0 +1,71 @@
+/* CSS: Cacading Style Sheets */
+
+.title{
+    font-size: 50px; /* * Tamanho da fonte */
+    font-weight: 700; /* * Peso da Fonte*/
+}
+
+section#principais-estilos{
+    background-color: black; /* * Cor de fundo */
+    color: white; /* * Cor da fonte */
+    padding: 50px; /* * Espaçamento interno do elemento */
+    margin: 20px 40px; /* * Espaçamento externo do elemento */
+    /*border: 2px solid red;*/ /* * Define uma borda para o elemento */
+    border-radius: 10px; /* * Define o raio da borda e arredonda as pontas */
+}
+
+#principais-estilos .paragrafo{
+    font-size: 22px;
+    /* line-height: 50px; */
+    /* line-height: 1.5px; */
+    line-height: 25px; /* * Altura da linha */
+    color: yellow;
+    font-family: 'Arial', monospace; /* * Família de fonte */
+}
+
+#flexbox .container{
+    display: flex; /* * Cria layouts flexíveis em um contêiner */
+    /*flex-direction: column;*/ /* * Define a direção do container entre linha (row) e coluna (column) */
+    gap: 20px; /* * Cria espaços entre as linhas e colunas */
+
+    /* ! Se o flex-direction for mudado de row pra column, o justify-content vira o alinhamento vertical e o align-items o horizontal */
+    /*justify-content: center;*/ /* * Define o alinhamento horizontal (left, right, center, flex-start, flex-end, ...) */
+    justify-content: space-between; /* * Define o espaçamento entre as caixas */
+    /*justify-content: space-around;*/ /* * Define o espaçamento entre as caixas e nas laterais */
+    /*justify-content: space-evenly;*/ /* * Define o espaçamento igual entre as caixas e nas laterais */
+
+    align-items: center; /* * Define o alinhamento vertical (center, flex-start, flex-end, ...) */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+}
+
+#flexbox .container .box{
+    width: 200px; /* * Largura do elemento */
+    height: 200px; /* * Altura do elemento */
+    background-color: green;
+}
+
+#flexbox .container .box-2{
+    width: 200px; /* * Largura do elemento */
+    height: 400px; /* * Altura do elemento */
+    background-color: blue;
+}
+
+section#grid-layout{
+    margin-top: 50px;
+}
+
+#grid-layout .container-grid{
+    display: grid;
+    /*grid-template-columns: 200px 200px 200px;*/ /* * Define a largura de cada coluna */
+    /*grid-template-columns: repeat(3, 200px);*/ /* * Define quantas vezes o grid tem que repetir, facilitando a linha anterior */
+    grid-template-columns: repeat(3, 1fr); /* * Deixa o elemento de forma flexível, facilitando a responsividade */
+    grid-template-rows: 500px 500px; /* * Define a altura da linnha */
+    gap: 20px;
+}
+
+#grid-layout .container-grid .caixa{
+    /* width: 200px; */
+    height: 200px;
+    background-color: blueviolet;
+}

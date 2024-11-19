@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de tarefas</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <button id="theme-toggle-btn">Alternar Tema</button>
+    </header>
+    <main>
+      <h1>Lista de Tarefas</h1>
+      <form id="todo-form">
+        <input
+          type="text"
+          placeholder="Informe a sua Tarefa..."
+          id="task-title-input"
+        />
+        <button type="submit" id="add-task-btn">Adicionar</button>
+      </form>
+      <section>
+        <ul id="todo-list"></ul>
+      </section>
+    </main>
+    <footer></footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,196 @@
+/* ? Seção header */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, button, input, select, textarea{
+    font-family: 'Heebo', sans-serif;
+}
+
+body{
+    background-color: #f7f7f7;
+}
+
+header{
+    background-color: #ffffff;
+    height: 80px;
+}
+
+header #navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 2rem; /* * 1rem = 16px, 2rem = 32px */
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 80px;
+}
+
+header #navbar .nav-brand{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #333;
+}
+
+header #navbar .nav-list{
+    list-style: none;
+
+    display: flex;
+    align-items: center;
+    gap: 31px;
+}
+
+header #navbar .nav-list .nav-item a{
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+header #navbar .nav-list .nav-item a:hover{
+    color: #777;
+    transition: color 0.3s;
+}
+
+header #navbar .hamburger-menu{
+    display: none;
+}
+
+/* ! Os estilos dentro do @media só são aplicados caso a tela do dispositivo seja menor que 740px, no caso muda o tipo de menu */
+@media (max-width: 740px){
+    header #navbar .hamburger-menu{
+        display: block;
+    }
+
+    header #navbar .nav-list{
+        display: none;
+    }
+}
+
+/* ? Seção main, banner (primeira section) */
+
+main{
+    margin-top: 6rem;
+}
+
+main #banner{
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 1200px;
+    padding: 0 2rem;
+    margin: 0 auto;
+}
+
+main #banner .banner-content .banner-content-title{
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 40px;
+}
+
+main #banner .banner-content .banner-content-subtitle{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    max-width: 500px;
+    margin-bottom: 38px;
+}
+
+main #banner .banner-content .banner-content-btn{
+    background-color: #00A8CC;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 2px;
+    padding: 8px 24px;
+    border: none;
+}
+
+main #banner .banner-image{
+    border-radius: 50%;
+    width: 100%;
+    max-width: 300px;
+}
+
+/* ! Os estilos dentro do @media só são aplicados caso a tela do dispositivo seja menor que 920px */
+@media (max-width: 920px){
+
+    main #banner{
+        flex-direction: column-reverse; /* * Muda a direção pra coluna, porém altera a ordem */
+        align-items: center;
+        gap: 2rem;
+    }
+
+    main #banner .banner-content{
+        text-align: center;
+    }
+
+}
+
+/* ? Seção Posts (segunda section) */
+
+section#posts{
+    margin-top: 71px;
+    background-color: #edf7fa;
+}
+
+#posts .posts-content{
+    padding: 0 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#posts .posts-content .posts-content-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+#posts .posts-content .posts-content-header .section-title{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+#posts .posts-content .posts-content-header .view-all-link{
+    text-decoration: none;
+    color: #00a8cc;
+}
+
+#posts .posts-content .posts-cards{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 2rem;
+}
+
+#posts .posts-content .posts-cards .post-card{
+    background-color: #ffffff;
+    padding: 24px;
+}
+
+#posts .posts-content .posts-cards .post-card h3{
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 37px;
+}
+
+#posts .posts-content .posts-cards .post-card span{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 24px;
+    display: block;
+}
+
+/* ! Os estilos dentro do @media só são aplicados caso a tela do dispositivo seja menor que 740px */
+@media (max-width: 740px){
+
+    #posts .posts-content .posts-cards{
+        flex-direction: column;
+    }
+
+}
