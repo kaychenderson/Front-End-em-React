@@ -16,7 +16,7 @@ console.log(PI);
 const form = document.querySelector("#search-form > form");
 const input = document.querySelector("#input-localizacao");
 const sectionTempoInfo = document.querySelector("#tempo-info");
-// ! O símbolo de interrogação é colocado pelo TS como prevenção caso o form retorne null
+// O símbolo de interrogação '?' é colocado pelo TS para prevenção, pois há possibilidade do form retornar null.
 form === null || form === void 0 ? void 0 : form.addEventListener("submit", (event) => __awaiter(void 0, void 0, void 0, function* () {
     event.preventDefault();
     if (!input || !sectionTempoInfo) {

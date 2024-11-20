@@ -14,7 +14,7 @@ const input: HTMLInputElement | null = document.querySelector("#input-localizaca
 
 const sectionTempoInfo = document.querySelector("#tempo-info");
 
-// ! O símbolo de interrogação é colocado pelo TS como prevenção caso o form retorne null
+// O símbolo de interrogação '?' é colocado pelo TS para prevenção, pois há possibilidade do form retornar null.
 form?.addEventListener("submit", async (event) => {
   event.preventDefault();
 
