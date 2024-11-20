@@ -1,4 +1,4 @@
-// Instalando o Eslint : 
+// Instalando o Eslint: 
 // npm install eslint -D ou npm install eslint --save-dev
 // npx eslint --init
 
