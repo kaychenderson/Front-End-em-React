@@ -1,6 +1,7 @@
 // * Funções de alta ordem de arrays
 
-// * 1. Array.prototype.forEach()
+// * 1. Array.prototype.forEach(): permite que você execute uma função em cada elemento de um array sem 
+// precisar escrever um loop manual (como o for ou while).
 
 const numbers = [40, 34, 67, 89, 23, 10];
 
