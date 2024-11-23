@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222;
+  color: white;
+
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+section#articles {
+  max-width: 1240px;
+  padding: 0 2rem;
+  margin: 4rem auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 46px;
+}

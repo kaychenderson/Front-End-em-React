@@ -1,0 +1,26 @@
+#article {
+  display: flex;
+  gap: 1rem;
+}
+
+#article .article-infos h2{
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+#article .article-infos h3 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #8695a4;
+  margin-bottom: 1rem;
+}
+
+/* #article .imgArticle {
+  border-radius: 12px;
+} */
+
+#article img {
+  max-width: 350px;
+  border-radius: 10px;
+} 
