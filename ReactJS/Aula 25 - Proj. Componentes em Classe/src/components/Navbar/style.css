@@ -1,0 +1,44 @@
+header {
+  background-color: #333;
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.75); /* x y espalhamento transparência */
+}
+
+header nav#nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  height: 95px;
+}
+
+header nav#nav-bar .nav-brand {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+header nav#nav-bar .nav-brand h1 {
+  font-family: 'Grenze', serif;
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+
+header nav#nav-bar ul.nav-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 1rem;
+}
+
+header nav#nav-bar ul.nav-list li a {
+  color: #ccc;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+
+header nav#nav-bar ul.nav-list li a:hover {
+  color: white;
+}
