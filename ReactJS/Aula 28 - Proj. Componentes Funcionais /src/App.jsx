@@ -11,7 +11,7 @@ function App() {
 
   // Deixando o projeto dinâmico:  
   // Instale axios: npm install axios ou yard add axios.
-  //Para instalar o yarn: npm install yard
+  // Para instalar o yarn: npm install yard
 
   useEffect(() => {
     async function loadNews() {
