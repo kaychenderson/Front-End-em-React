@@ -24,7 +24,7 @@ export const TasksProvider:React.FC<TasksProviderProps> = ({ children }) => {
     const tasksOnLocalStorage = localStorage.getItem('tasks');
 
     if(tasksOnLocalStorage) {
-      setTasks(JSON.parse(tasksOnLocalStorage)); // Por termos transformado em string, temos que transformar agora em um array e armazenamos no estado de tarefas.
+      setTasks(JSON.parse(tasksOnLocalStorage)); // Por termos transformado em string, agora temos que transformar em um array e armazenamos no estado de tarefas.
     }
   }, []);
 
