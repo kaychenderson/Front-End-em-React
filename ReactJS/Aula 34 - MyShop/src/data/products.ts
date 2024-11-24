@@ -1,3 +1,5 @@
+// https://fakestoreapi.com/products
+
 export interface Product {
   id: number;
   title: string;
