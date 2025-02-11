@@ -15,8 +15,10 @@
 5. **Aplicações de Realidade Aumentada**
 
 A ideia central do React é criar **interfaces complexas** a partir de blocos de código menores, que chamamos de **componentes**. Com a componentização, fica mais fácil manter e reutilizar o código em várias partes da aplicação.
-
-![Ilustração da Componentização](https://ibaslogic.com/static/images/react-components-data-model/react-components-structure.png) 
+<div align="center">
+  
+  ![Ilustração da Componentização](https://github.com/user-attachments/assets/27775713-82a5-47df-a558-e8927047bdc8)
+</div>
 
 ## 🔎 2. Principais Bibliotecas Associadas ao React
 
